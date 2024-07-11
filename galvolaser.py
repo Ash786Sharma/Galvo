@@ -9,7 +9,7 @@ phi_max_deg = 12.5    # Maximum angle in degrees
 voltage_min = -15.0   # Minimum voltage in volts
 voltage_max = 15.0    # Maximum voltage in volts
 dac_resolution = 4096  # DAC resolution (12-bit)
-distance_mm = 225.64       # Distance in mm
+distance_mm = 225.64       # Distance in mm 
 
 # Function to convert Cartesian coordinate to theta in radians
 def cartesian_to_theta(x, y):

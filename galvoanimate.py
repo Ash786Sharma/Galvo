@@ -138,7 +138,7 @@ ax.set_zlim(0, distance_mm + 50)
 def animate(i):
     # Update path line
     path_line.set_data(smooth_dac_values_x[:i+1], smooth_dac_values_y[:i+1])
-    path_line.set_3d_properties([0] * (i+1))
+    path_line.set_3d_properties([0] * (i+1)) 
     
     # Update laser point
     if i < len(smooth_dac_values_x):

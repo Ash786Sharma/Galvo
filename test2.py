@@ -33,7 +33,7 @@ dac_values = [(angles_to_dac(theta_x, max_angle), angles_to_dac(theta_y, max_ang
 print(dac_values)
 # Extract X and Y DAC values for plotting
 x_dac = [x for x, y in dac_values]
-y_dac = [y for x, y in dac_values]
+y_dac = [y for x, y in dac_values] 
 
 # Plotting the path
 plt.figure(figsize=(6, 6))

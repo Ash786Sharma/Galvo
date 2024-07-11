@@ -7,7 +7,7 @@ def parse_gcode(file_path):
     y_coords = []
     
     current_x = None
-    current_y = None
+    current_y = None 
     
     with open(file_path, 'r') as file:
         for line in file:
