@@ -49,7 +49,7 @@ def parse_gcode_file(file_path):
 # Example usage:
 # Path to your G-code file
 #gcode_file_path = 'C:\\Users\\a6260\\Downloads\\galvo\\venv\\assets\\rectangle.gcode'
-gcode_file_path = 'C:\\Users\\a6260\\Downloads\\galvo\\venv\\assets\\texttogcode_line.gcode'
+gcode_file_path = 'C:\\Users\\a6260\\Downloads\\galvo\\assets\\texttogcode_line.gcode'
 
 # Parse G-code file to get command queue
 command_queue = parse_gcode_file(gcode_file_path)
